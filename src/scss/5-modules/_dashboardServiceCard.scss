@@ -1,0 +1,35 @@
+#DashboardServiceSection {
+  #DbServiceCardSection {
+    display: flex;
+    border: 1px solid lightgray;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    .DbServiceCard {
+      transition: all ease-in-out 300ms;
+      &:hover {
+        box-shadow: 0px 0px 21px 1px #e7e5ff;
+
+        transform: scale(1.1);
+        transition: all ease-in-out 300ms;
+        margin: 1rem;
+        border: 1px solid rgb(45, 129, 253);
+      }
+      &:active {
+        margin: 1.5rem;
+        transform: scale(1.2);
+      }
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0.5rem;
+      border-radius: 0.5rem;
+      background-color: white;
+      min-height: 10rem;
+      height: 15rem;
+      min-width: 10rem;
+      width: 15rem;
+    }
+  }
+}
